@@ -1,0 +1,61 @@
+@media(max-width: 700px){
+    nav{
+        justify-content: none;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+    }
+
+    img {
+        margin: 0;
+        width: 45px;
+        height: 42px;
+    }
+
+    h3 {
+        font-size: 40px;
+        line-height: 47px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .register {
+        align-self: center;
+        margin:0;
+        width: 151px;
+        height: 55px;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+    a {
+        font-size: 40px;
+        line-height: 47px;
+        margin-left:0;
+        margin-bottom: 50px;
+    }
+    
+    .info {
+        align-self: center;
+        margin: 0;
+        width: 233px;
+        height: 81px;
+        font-size: 40px;
+        line-height: 47px;
+        margin-bottom: 50px;
+    }
+
+}
